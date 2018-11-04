@@ -1,6 +1,6 @@
 # Yii2 Open For PHP
 ### Sơ lược  
- 
+update 02:40 05/11/2018 
 
 ### Cài đặt
 composer require --prefer-dist izisoft/yii2-open "dev-master"
