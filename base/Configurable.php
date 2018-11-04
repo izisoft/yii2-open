@@ -5,7 +5,7 @@
  * @license http://www.yiiframework.com/license/
  */
 
-namespace izi\base;
+namespace yii\base;
 
 /**
  * Configurable is the interface that should be implemented by classes who support configuring

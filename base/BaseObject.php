@@ -1,5 +1,5 @@
 <?php 
-namespace izi\base;
+namespace yii\base;
 
 class BaseObject implements Configurable
 
