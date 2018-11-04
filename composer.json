@@ -1,0 +1,35 @@
+{
+	"name" : "izisoft/yii2-open",
+	"description" : "Yii2 Open for PHP",
+	"type" : "php-extension",
+	"version" : "2.0",
+	"license" : "BSD-3-Clause",
+	"authors" : [{
+			"name" : "izisoft",
+			"email" : "izisoft@iziweb.vn",
+			"homepage" : "https://iziweb.vn",
+			"role" : "Developer"
+		}
+	],
+	"support" : {
+		"issues" : "https://github.com/yiisoft/izisoft/yii2-open/issues",		
+		"source" : "https://github.com/yiisoft/izisoft/yii2-open"
+	},
+	"minimum-stability" : "dev",
+	"require": {
+        "php": ">=5.4.0",
+        "ext-mbstring": "*",
+        "ext-ctype": "*",
+        "lib-pcre": "*",        
+        "ezyang/htmlpurifier": "~4.6",
+        "cebe/markdown": "~1.0.0 | ~1.1.0 | ~1.2.0",
+        "bower-asset/jquery": "3.2.*@stable | 3.1.*@stable | 2.2.*@stable | 2.1.*@stable | 1.11.*@stable | 1.12.*@stable",
+        "bower-asset/inputmask": "~3.2.2 | ~3.3.5",
+        "bower-asset/punycode": "1.3.*"
+    },
+	"autoload" : {
+		"psr-4" : {
+			"izi\\" : ""
+		}
+	}
+}
