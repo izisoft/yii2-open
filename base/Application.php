@@ -379,10 +379,10 @@ abstract class Application extends Module
     public function run()
     {
         try {
-            $this->state = self::STATE_BEFORE_REQUEST;
-            $this->trigger(self::EVENT_BEFORE_REQUEST);
+            //$this->state = self::STATE_BEFORE_REQUEST;
+            //$this->trigger(self::EVENT_BEFORE_REQUEST);
 
-            $this->state = self::STATE_HANDLING_REQUEST;
+            //$this->state = self::STATE_HANDLING_REQUEST;
 //             $response = $this->handleRequest($this->getRequest());
 
 //             $this->state = self::STATE_AFTER_REQUEST;
