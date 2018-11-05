@@ -40,7 +40,12 @@ return [
             ],
         ],
         'mailer' => ['class' => 'izi\mailer\Mailer'],
-        
+        'urlManager' => [
+            'class' => 'izi\opencart\web\UrlManager',
+            'showScriptName' => false,
+            'enablePrettyUrl' => true,
+            'scriptUrl'=>'/index.php',
+        ],
         'language'=>'vi',
         
      
